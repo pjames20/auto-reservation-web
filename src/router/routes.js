@@ -12,6 +12,15 @@ const routes = [
           {
             path: 'sign_up', component: () => import('pages/book_now/SignUp.vue')
           }]
+      }, {
+        path: 'inventory',
+        component: () => import('pages/inventory/Inventory.vue'),
+        children: [
+          { path: '', component: () => import('pages/Index.vue') },
+          {
+            path: 'add_item', component: () => import('pages/inventory/AddItem.vue')
+          }
+        ]
       }
     ]
   }

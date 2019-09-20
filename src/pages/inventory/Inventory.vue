@@ -10,12 +10,12 @@
           vertical
           class="text-grey-9"
         >
-          <q-route-tab name="sign_up" icon="add" label="Sign Up" to="/book_now/sign_up"/>
+          <q-route-tab name="add_item" icon="add" label="Sign Up" to="/inventory/add_item"/>
         </q-tabs>
       </template>
 
       <template v-slot:after>
-          <router-view />
+        <router-view />
       </template>
 
     </q-splitter>
@@ -24,10 +24,10 @@
 
 <script>
 export default {
-  name: 'BookNow',
+  name: 'Inventory',
   data () {
     return {
-      tab: 'book_now',
+      tab: 'inventory',
       splitterModel: 20
     }
   }
