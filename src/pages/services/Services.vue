@@ -9,7 +9,7 @@
           vertical
           class="text-grey-9"
         >
-          <q-route-tab name="services" icon="local_shipping" label="Services" to="/services/services_list"/>
+          <q-route-tab name="services" icon="local_shipping" label="Services" to="/services/service_list"/>
         </q-tabs>
       </template>
 
