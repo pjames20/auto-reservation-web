@@ -2,7 +2,7 @@
     <div class="row q-ma-md">
       <div class="col-4"></div>
       <div class="col">
-        <div class="text-h4 q-mb-md">Services</div>
+          <div class="text-h4 q-mb-md">Services</div>
         <q-card class="my-card">
         <img src="">
 
