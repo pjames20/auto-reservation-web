@@ -17,7 +17,7 @@ const routes = [
       },
       {
         path: '/services',
-        component: () => import('pages/services/Service.vue'),
+        component: () => import('pages/services/Services.vue'),
         children: [
           {
             path: 'services_list', component: () => import('pages/services/ServiceList.vue')
