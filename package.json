@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "quasar": "^1.0.0"
+    "quasar": "^1.0.0",
+    "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",

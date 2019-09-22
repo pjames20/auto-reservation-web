@@ -9,13 +9,12 @@
         </q-toolbar-title>
 
         <q-tabs v-model="tab" shrink stretch>
-          <q-route-tab name="home" label="Home" to="/"  />
-          <q-route-tab name="services" label="Services" to="/" />
-          <q-route-tab name="team" label="Team" to="/" />
-          <q-route-tab name="specials" label="Specials" to="/" />
+<!--          <q-route-tab name="home" label="Home" to=""  />-->
+          <q-route-tab name="services" label="Services" to="/services" />
           <q-route-tab name="book_now" label="Book Now" to="/book_now" />
-          <q-route-tab name="location" label="Location" to="/" />
-          <q-route-tab name="about" label="About" to="/" />
+          <q-route-tab name="inventory" label="Inventory" to="/inventory" />
+          <q-route-tab name="location" label="Location" to="/location" />
+          <q-route-tab name="about" label="About" to="/about" />
         </q-tabs>
 
       </q-toolbar>

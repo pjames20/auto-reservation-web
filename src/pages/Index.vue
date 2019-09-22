@@ -1,6 +1,5 @@
 <template>
-  <q-page class="">
-  </q-page>
+  <div></div>
 </template>
 
 <style>
@@ -8,6 +7,9 @@
 
 <script>
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  data () {
+    return {}
+  }
 }
 </script>
